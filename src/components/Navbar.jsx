@@ -7,7 +7,7 @@ export default function Navbar({cartCount, onOpenCart, searchTerm, setSearchTerm
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
                 <div className="flex items-center gap-2 cursor-pointer">
                     <div className="bg-emerald-500 p-2 rounded-xl text-zinc-950"></div>
-                    <span className="text-xl font-black tracking-wider text-white">VAPE<span className="text-emerald-500">STORE</span></span>
+                    <span className="text-xl font-black tracking-wider text-white">JUST<span className="text-emerald-500">VAPE</span></span>
                 </div>
                 <div className="hidden md:flex items-center flex-1 max-w-md relative">
                     <Search className="absolute left-3 w-5 h-5 text-zinc-400" />
